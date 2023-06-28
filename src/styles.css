@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.inc {
+  background-color: green;
+}
+.dec {
+  background-color: red;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

@@ -1,0 +1,48 @@
+.container {
+  border: 5px solid black;
+  padding: 20px;
+}
+.btn {
+  background-color: #2684fc;
+  border: none;
+  margin: 5px;
+  padding: 20px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  scale: 0.98;
+  background-color: #2276e2;
+  transition: 0.5s all;
+}
+
+/* .loader { */
+/* border: 5px solid #f3f3f3; */
+/* border-radius: 50%; */
+/* border-top: 4px solid #3498db; */
+/* width: 20px; */
+/* height: 20px; */
+/* -webkit-animation: spin 2s linear infinite; Safari */
+/* animation: spin 2s linear infinite; */
+/* } */
+
+/* Safari */
+/* @-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+} */
+
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
