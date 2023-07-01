@@ -116,7 +116,7 @@ class DogPics extends React.Component {
     this.getDogData();
   }
   componentDidUpdate(prevProps, prevState) {
-    console.log("aaaa", prevProps, prevState);
+    // console.log("aaaa", prevProps, prevState);
     if (this.state.selectedBreed !== prevState.selectedBreed) {
       this.getDogData();
     }
